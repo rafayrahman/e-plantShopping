@@ -258,8 +258,9 @@ function ProductList({ onHomeClick }) {
     };
 
     const handleContinueShopping = (e) => {
-        e.preventDefault();
+        console.log("Continue clicked");
         setShowCart(false);
+        setShowPlants(false); 
     };
 
     const handleAddToCart = (plant) => {
